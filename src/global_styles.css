@@ -1,0 +1,21 @@
+/* Add application styles & imports to this file! */
+.krapib {
+  animation-name: ringAnimation;
+  animation-duration: 0.5s;
+  transition-timing-function: ease-in;
+}
+
+@keyframes ringAnimation {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(1px);
+    background-color: #dcdcdc;
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
